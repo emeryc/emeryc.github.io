@@ -670,7 +670,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('snap_packages-4c37ef93a95f10d1_bg.wasm', import.meta.url);
+        input = new URL('snap_packages-a28643be0bda9753_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
